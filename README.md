@@ -1,4 +1,4 @@
-# Web Basic Project using JPA
+# Web Basic Project using JPA (Backend Focus)
 
 This is a learning project for practicing **Java Web Development** using:
 - Java Servlets & JSP
