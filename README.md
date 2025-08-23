@@ -13,3 +13,5 @@ This is a learning project for practicing **Java Web Development** using:
 - Delete account
 - Search users by last name
 
+## Database Exemple
+<img width="440" height="220" alt="image" src="https://github.com/user-attachments/assets/f444ec88-0575-4f20-b169-51debf46ddaa" />
