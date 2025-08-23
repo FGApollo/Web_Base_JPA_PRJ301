@@ -15,12 +15,12 @@
         <title>Search</title>
     </head>
     <body>
-        <font> 
-        Welcome, ${sessionScope.USER_INFO.lastname}
+        <p> 
+        Welcome <span style="color:red">${sessionScope.USER_INFO.lastname} !</span><br/>
         <a href="DispatchServlet?btAction=Logout">
             Logout
         </a>
-        <font>
+        <p>
 
         <h1>Search Page</h1>
         <form action="SearchLastNameServlet">
