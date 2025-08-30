@@ -25,7 +25,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                 border: 1px solid #ccc;
                 border-radius: 10px;
                 background-color: white;
-
+                box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
             }
             .loginbutton{
                 background-color: #0866ff;
@@ -61,8 +61,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             <h1>Login Page</h1>
             <form action="DispatchServlet" method="POST">
                 <div class="loginform">
-                    Username <input type="text" name="txtUsername" value="" placeholder=""/> <br/>
-                    Password <input type="password" name="txtPassword" value="" /><br/>
+                    Username <input type="text" name="txtUsername" value="" required=""/> <br/>
+                    Password <input type="password" name="txtPassword" value=""  required=""/><br/>
                     <div class="button">
                         <input class="loginbutton" type="submit" value="Login" name="btAction" />
                         <input class="resetbutton" type="reset" value="Reset" />
