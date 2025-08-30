@@ -8,16 +8,71 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f5f5f5;
+
+            }
+
+            .container {
+                margin: 170px;
+                padding: 20px 30px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                background-color: white;
+
+            }
+            .loginbutton{
+                background-color: #0866ff;
+                color: white;
+                width: 245px;
+                border-radius: 10px;
+                height: 40px;
+                margin-bottom: 10px;
+            }
+
+            .button{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .loginform {
+                display: flex;
+                flex-direction: column; 
+                margin-bottom:  10px;              
+            }
+            
+            .resetbutton{
+                background-color: red;
+                color: white;
+                border-radius: 6px;
+            }
+
+        </style>
     </head>
     <body>
-        <h1>Login Page</h1>
-        <form action="DispatchServlet" method="POST">
-            Username <input type="text" name="txtUsername" value="" /> <br/>
-            Password <input type="password" name="txtPassword" value="" /><br/>
-            <input type="submit" value="Login" name="btAction" />
-            <input type="reset" value="Reset" />
-        </form>
-        <a href="createNewAccount.html">Sign Up</a>
-        
+        <div class="container">
+            <h1>Login Page</h1>
+            <form action="DispatchServlet" method="POST">
+                <div class="loginform">
+                    Username <input type="text" name="txtUsername" value="" placeholder=""/> <br/>
+                    Password <input type="password" name="txtPassword" value="" /><br/>
+                    <div class="button">
+                        <input class="loginbutton" type="submit" value="Login" name="btAction" />
+                        <input class="resetbutton" type="reset" value="Reset" />
+                    </div>
+                </div>
+            </form>
+            <span>You don't have account ?</span>
+            <a href="createNewAccount.html">Sign Up</a>
+        </div>
+
+
     </body>
 </html>
