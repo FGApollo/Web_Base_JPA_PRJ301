@@ -18,4 +18,4 @@ This is a learning project for practicing **Java Web Development** using:
 <img width="435" height="244" alt="image" src="https://github.com/user-attachments/assets/c6923ec0-6818-42f4-8e9c-c07a0dfff388" />
 
 
-**Note:** The package `thinhnhn.util` and class DAO currently has no usage.
+**Note:** The package `thinhnhn.util` and class DAO, DTO currently has no usage.
