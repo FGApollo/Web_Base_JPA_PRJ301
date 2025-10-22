@@ -1,4 +1,3 @@
-
 # Web Base Project using JPA (Backend Focus)
 
 This is a learning project for practicing **Java Web Development** using:
